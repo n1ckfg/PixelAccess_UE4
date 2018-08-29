@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/.git": true,
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/.vs": true,
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/.vscode": true,
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/Content": true,
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/Intermediate": true,
+		"C:/Users/nick/Documents/GitHub/UNREAL_PLUGINS/PixelAccess_UE4/Saved": true
+	}
+}

@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "PixelAccess_UE4 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4 Win64 Debug Build",
+			"program": "C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\Binaries\\Win64\\PixelAccess_UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4 Win64 DebugGame Build",
+			"program": "C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\Binaries\\Win64\\PixelAccess_UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4 (Development)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4 Win64 Development Build",
+			"program": "C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\Binaries\\Win64\\PixelAccess_UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4 Win64 Shipping Build",
+			"program": "C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\Binaries\\Win64\\PixelAccess_UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4 (Test)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4 Win64 Test Build",
+			"program": "C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\Binaries\\Win64\\PixelAccess_UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4Editor Win64 Debug Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4Editor Win64 DebugGame Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-debug"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "PixelAccess_UE4Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "PixelAccess_UE4Editor Win64 Development Build",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject"
+			],
+			"cwd": "D:\\Epic Games\\UE_4.19",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Epic Games\\UE_4.19\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\Epic Games\\UE_4.19\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\Epic Games\\UE_4.19"
+		}
+	]
+}

@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PixelAccess_UE4 Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win32",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4",
+				"Win64",
+				"Test",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PixelAccess_UE4Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		},
+		{
+			"label": "PixelAccess_UE4Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PixelAccess_UE4Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\nick\\Documents\\GitHub\\UNREAL_PLUGINS\\PixelAccess_UE4\\PixelAccess_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_4.19"
+			}
+		}
+	]
+}
